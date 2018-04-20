@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="multi_app_name">Galeria</string>
+    <string name="free_version_label">Imagens restantes: %d</string>
+    <string name="error_database">Ocorreu  um erro ao tentar acessar o banco de dados de imagem. Relate este problema ao administrador do sistema.</string>
+    <string name="requesting_thumbnails">Solicitando miniaturas, por favor aguarde</string>
+    <string name="multi_image_picker_processing_images_title">Processando imagens</string>
+    <string name="multi_image_picker_processing_images_message">Isto pode levar um tempo</string>
+    <string name="discard" translatable="false">Cancelar</string>
+    <string name="done" translatable="false">OK</string>
+ </resources>
