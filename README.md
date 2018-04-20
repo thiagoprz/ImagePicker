@@ -3,6 +3,12 @@ cordova-imagePicker
 
 Cordova Plugin For Multiple Image Selection - implemented for iOS and Android 4.0 and above.
 
+
+## Portuguese translations and layout customizations/optimizations
+This version was created with the pupose to bring brazilian portuguese translation and some layout customizations to supply specific project needs.
+Esta versão foi criada exclusivamente para trazer a tradução para português e algumas customizações visuais criadas para suprir necessidades de projetos.
+
+
 ## Installing the plugin
 
 The plugin conforms to the Cordova plugin specification, it can be installed
