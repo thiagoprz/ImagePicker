@@ -93,12 +93,12 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="ImagePicker">
-                <param name="android-package" value="com.synconset.ImagePicker"/>
+                <param name="android-package" value="com.thiagoprz.ImagePicker"/>
             </feature>
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <activity android:label="@string/multi_app_name" android:name="com.synconset.MultiImageChooserActivity" android:theme="@style/Theme.AppCompat.Light">
+            <activity android:label="@string/multi_app_name" android:name="com.thiagoprz.MultiImageChooserActivity" android:theme="@style/Theme.AppCompat.Light">
             </activity>
         </config-file>
 
@@ -108,11 +108,11 @@
 
         <framework src="com.android.support:appcompat-v7:23+" />
 
-        <source-file src="src/android/com/synconset/ImagePicker/ImagePicker.java" target-dir="src/com/synconset" />
-        <source-file src="src/android/com/synconset/ImagePicker/FakeR.java" target-dir="src/com/synconset" />
+        <source-file src="src/android/com/thiagoprz/ImagePicker/ImagePicker.java" target-dir="src/com/thiagoprz" />
+        <source-file src="src/android/com/thiagoprz/ImagePicker/FakeR.java" target-dir="src/com/thiagoprz" />
 
-        <source-file src="src/android/Library/src/ImageFetcher.java" target-dir="src/com/synconset"/>
-        <source-file src="src/android/Library/src/MultiImageChooserActivity.java" target-dir="src/com/synconset"/>
+        <source-file src="src/android/Library/src/ImageFetcher.java" target-dir="src/com/thiagoprz"/>
+        <source-file src="src/android/Library/src/MultiImageChooserActivity.java" target-dir="src/com/thiagoprz"/>
 
         <resource-file src="src/android/Library/res/anim/image_pop_in.xml" target="res/anim/image_pop_in.xml"/>
         <resource-file src="src/android/Library/res/drawable/grid_background.xml" target="res/drawable/grid_background.xml"/>
